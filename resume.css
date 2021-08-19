@@ -1,0 +1,66 @@
+body{
+    font-family: Montserrat;
+}
+
+header{
+    background-image: url('img/orangeback.png');
+    background-size: contain;
+    margin: -8px;
+    text-align: center;
+    color: rgb(71, 0, 71);
+    padding: 1px;
+}
+#profile-pic{
+    width: 100px;
+    height: 145px;
+    margin-bottom: -3.5em;
+}
+#caption{
+    margin-top: -1.2em;
+    color: black;
+}
+#contact{
+    font-size: 13px;
+    font-weight: 450;
+}
+
+main{
+    text-align: justify;
+}
+.heading{
+    font-weight: bold;
+}
+main p{
+    line-height: 1.5em;
+    padding: .3em .5em;
+    font-size: 13px;
+}
+h3{
+    color: rgb(58, 0, 58);
+    border-bottom: 1px solid #f8b124e1;
+    border-bottom-width: 2px;
+}
+
+section{
+    margin-bottom: 1.5em;
+    border: none;
+    box-shadow: .1em .2em .3em whitesmoke;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#link{
+    text-decoration: none;
+    color: rgb(58, 0, 58);
+    font-weight: 450;
+    border-bottom: 1px solid #f8b124e1;
+    align-self: center;
+}
+#zuri{
+    width: 150px;
+}

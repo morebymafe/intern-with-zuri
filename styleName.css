@@ -1,0 +1,57 @@
+body{
+    font-family: Montserrat;
+    background: url('img/zuri-back.png');
+    background-size: cover;
+    margin: 8em 2em;
+}
+
+h4{
+    font-family: Montserrat Thin;
+    letter-spacing: 5px;
+    color: rgb(194, 194, 194);
+    font-size: 10px;
+}
+
+h1{
+    color: #f6ae1c;
+    line-height: 5px;
+    font-size: 5em;
+}
+
+#work{
+    padding: 2em 0;
+}
+p{
+    padding: 7px 7px;
+    font-weight: bold;
+    transition: .9s;
+}
+.orange{
+    background-color: #f8b124e1;
+}
+.sh{
+    width: 9em;
+}
+.lg{
+    width: 15em;
+}
+.black{
+    color: #f6ae1c;
+    background-color: #111111;
+    width: 13em;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #f6ae1c;
+    color: rgb(194, 194, 194);
+}
+a:hover{
+    background-color: #ffbe3b;
+    border: none;
+    cursor: pointer;
+    transition: .6s;
+    color: #0f0f0f;
+    font-weight: 450;
+}

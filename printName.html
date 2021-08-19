@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World! | morebymafe</title>
+    <link rel="stylesheet" href="styleName.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="name-bgscreen.css">
+</head>
+<body>
+    <div id="intro">
+        <h4>HELLO WOLRD!</h4>
+        <h1>I'm <span id="first"></span><span id="second"></span></h1>
+    </div>
+    
+
+    <div id="work">
+        <p class="orange sh">Web developer</p>
+        <p class="black">Illustrator</p>
+        <p class="orange lg">Coding Instructor</p>
+    </div>
+
+
+    <a href="resume.html">Check My Resume</a>
+
+    
+    <script>
+        function name(){
+            var firstName = document.getElementById('first');
+            var lastName  = document.getElementById('second');
+
+            firstName.textContent = 'Tunji ';
+            lastName.textContent = 'Mafe';
+        }
+        name();
+        
+
+
+    </script>
+
+</body>
+</html>
