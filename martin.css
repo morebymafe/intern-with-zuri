@@ -1,0 +1,109 @@
+body{
+    text-align: justify;
+    margin: 1em 10em;
+    padding: 5em;
+    background-color: rgb(241, 240, 238);
+    font-family: poppins;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Montserrat extrabold;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+span{
+    font-weight: lighter;
+}
+
+#img-div{
+    display: flex;
+}
+
+#img-caption{
+    font-family: poppins;
+    font-size: 20px;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    animation-name: slide;
+    animation-duration: 5000ms;
+
+}
+header p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h4{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Montserrat regular;
+}
+
+hr{
+    width: 50%; 
+    margin-bottom: 50px;
+}
+
+#quote{
+    color: white;
+    padding: 25px;
+    margin: 70px;
+    font-size: 30px;
+    background-color: black;
+    font-family: poppins;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#hrq{
+     width: 30%;   
+}
+
+h2{
+    font-size: 20px;
+    font-family: poppins;
+    color: rgb(197, 197, 197);
+    background-color: rgba(0, 0, 0, 0.918);
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgb(131, 131, 131);
+}
+
+.cta{
+    margin: 5em 15em;
+}
+
+button{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: 0;
+    padding: 15px 30px;
+    margin: 5px;
+}
