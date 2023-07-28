@@ -1,0 +1,163 @@
+body{ background-color: rgb(17, 17, 17);
+    font-family: poppins;
+    margin: auto;
+    overflow-x: hidden;
+    padding: 3em;
+    color: white;
+    
+  }
+  h1 { 
+    color: #e2e2e2;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 1em;
+  }
+  .sidenav {
+    height: 98%; /* 100% Full-height */
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #eeeeee; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  .sidenav a {
+    padding: 6px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4d4d4d;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #141414;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  main{
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  #menu-bar{
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px rgba(80, 80, 80, 0.445);
+  }
+  
+  header{
+    display: flex;
+    flex: row;
+    align-items: center;
+  }
+  
+  h2{
+    color: #e2e2e2;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  p{
+    color: white;
+    text-align: justify;
+    padding: 0 3em 0 0;
+  }
+  
+  #code{ 
+    font-family: century gothic;
+    font-size: 15px;
+    background-color: #363636;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .ref-link{
+    color: #e9e7e7;
+    font-weight: bold;
+  }
+  
+  #scroll-up{
+    color: white;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 10px 20px;
+    font-family: poppins;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    background-color: #31313183;
+    box-shadow: 1px 1px 8px rgba(29, 29, 29, 0.445);
+  }
+  #scroll-up img{
+    height: 15px;
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    body{
+      padding: 3px;
+    }
+  
+    h1 { 
+      font-size: 20px;
+      margin-left: 10px;
+    }
+    .sidenav {
+      background-color: #ecececf6; 
+    }
+    
+    #menu-bar{
+      height: 30px;
+    }
+    
+    h2{
+      font-size: 18px;
+      text-decoration: underline;
+    }
+    p{
+      text-align: left;
+      padding: 0 1em 0 0;
+      line-height: 1.8em;
+    }
+    
+    #scroll-up{
+      box-shadow: 1px 1px 8px rgba(29, 29, 29, 0.651);
+    }
+  
+    
+  }
+  
+  #switch{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .mode{
+    height: 15px;
+    margin: 5px;
+  }
+  
+  
+  
+  
+  
+  
+  
