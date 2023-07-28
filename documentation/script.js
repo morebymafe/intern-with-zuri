@@ -1,6 +1,6 @@
 //code for side nav menu
 function openNav() {
-    document.getElementById("nav-bar").style.width = "390px";
+    document.getElementById("nav-bar").style.width = "400px";
   };
 function closeNav() {
     document.getElementById("nav-bar").style.width = '0';
