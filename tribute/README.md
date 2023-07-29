@@ -1,1 +1,1 @@
-# This is the tribute page for Fr. Martin Luther King, jnr. hosted on netlify.app
+# This is the tribute page for Dr. Martin Luther King, jnr. hosted on netlify.app
