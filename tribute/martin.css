@@ -1,0 +1,136 @@
+body{ 
+    padding: 20px 50px;
+    margin: 15px;
+    overflow-x: hidden;
+    text-align: justify;
+    background-color: rgb(241, 240, 238);
+    font-family: poppins;
+    }
+
+h1{ 
+    font-size: 25px;
+    font-family: Montserrat extrabold;
+    color: white;
+    text-align: center;
+}
+p{ font-size: 10px;
+    font-weight: bold;
+}
+span{
+    font-weight: lighter;
+}
+    
+header{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    
+    }
+header p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-align: justify;
+}
+h4{
+    margin-top: 20px;
+    text-align: center;
+}
+
+hr{
+    margin: 20px;
+}
+
+#quote{
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+    background-color: black;
+    font-family: poppins;
+}
+img{
+    position: relative;
+    left: 40%;
+}
+
+#scroll-up{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 10px 20px;
+    font-family: poppins;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    background-color: #dfdede83;
+    box-shadow: 1px 1px 8px rgba(192, 192, 192, 0.445);
+  }
+
+@media screen and (min-width: 600px){
+
+body{
+    text-align: justify;
+    margin: 1em 5em;
+    padding: 2em;
+    background-color: rgb(241, 240, 238);
+    font-family: poppins;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+span{
+    font-weight: lighter;
+}
+
+
+#img-caption{
+    font-family: poppins;
+    font-size: 20px;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+header p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h4{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+hr{
+    margin-bottom: 50px;
+}
+
+#quote{
+    text-align: center;
+    color: white;
+    padding: 25px;
+    margin: 70px;
+    font-size: 30px;
+    background-color: black;
+    font-family: poppins;
+    box-shadow: 1px 1px 1em rgb(179, 179, 179);
+}
+
+
+}
+
